@@ -19,7 +19,7 @@ This Python script scrapes mutual fund details (fund name, category, launch date
 
 ```
 📦 mutual-fund-scraper
- ┣ 📜 scraper.py           # Main script
+ ┣ 📜 main.py           # Main script
  ┣ 📜 config.json          # Config file for credentials, URLs, and settings
  ┣ 📜 requirements.txt     # Required Python libraries
  ┣ 📜 scraper_log.txt      # Log file (auto-created)
