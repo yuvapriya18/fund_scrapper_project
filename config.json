@@ -1,0 +1,25 @@
+{
+  "google": {
+    "credentials_path": "credentials.json",
+    "spreadsheet_name": "Scrap",
+    "worksheet_index": 0
+  },
+  "timing": {
+    "sleep_seconds": 1.5
+  },
+  "flags": {
+    "std_beta_high_is_bad": true,
+    "others_high_is_good": true
+  },
+  "headers": {
+    "user_agent": "Mozilla/5.0"
+  },
+  "urls": {
+    "risk_template": "{base_url}/riskanalysis/{fund_code}",
+    "launch_template": "{base_url}/investment-info/{fund_code}",
+    "base_clean_pattern": "/nav/"
+  },
+  "logging": {
+    "log_file": "scraper_log.txt"
+  }
+}
