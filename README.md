@@ -115,7 +115,7 @@ Visit [Google Cloud Console](https://console.cloud.google.com/) to manage your G
 ## ▶️ Running the Script
 
 ```bash
-python scraper.py
+python main.py
 ```
 
 Logs will be stored in **scraper\_log.txt** as well as shown in the terminal.
